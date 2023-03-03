@@ -1,0 +1,80 @@
+.masthead {
+  height: 100vh;
+  min-height: 500px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.hero-1 {
+  width: 100%;
+/*  height: 120vh;*/
+  background: url(../img/hero-bg.png) top center no-repeat;
+  background-size: cover;
+}
+
+
+#btn-log{
+  padding-left: 2.5rem; 
+  padding-right: 2.5rem;
+  background-color: white;
+  color: navy;
+}
+#btn-log:hover
+{
+  background-color: navy;
+  color: white;
+}
+#btn-reg{
+  padding-left: 2.5rem; 
+  padding-right: 2.5rem;
+  background-color: white;
+  color: navy;
+}
+#btn-reg:hover
+{
+  background-color: green;
+  color: white;
+}
+#reg
+{
+  background-color: navy;
+  color: white;
+}
+#reg:hover
+{
+  background-color: white;
+  color: orangered;
+}
+#log
+{
+  background-color: navy;
+  color: white;
+}
+#log:hover
+{
+  background-color: white;
+  color: green;
+}
+
+#or-txt
+{
+  font-family:Bell MT;
+  font-size: 20px;
+}
+
+.divider:after,
+.divider:before {
+content: "";
+flex: 1;
+height: 1.5px;
+background: darkblue;
+}
+.h-custom {
+height: calc(100% - 73px);
+}
+@media (max-width: 450px) {
+.h-custom {
+height: 100%;
+}
+}
+
